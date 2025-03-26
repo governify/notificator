@@ -1,0 +1,40 @@
+{
+  "name": "notificator",
+  "version": "0.1.0",
+  "description": "Sends notifications to email, slack...",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/governify/notificator.git"
+  },
+  "keywords": [
+    "sendgrid",
+    "slack",
+    "email",
+    "notification"
+  ],
+  "author": "motero2k (Manuel Otero)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/governify/notificator/issues"
+  },
+  "homepage": "https://github.com/governify/notificator#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
+    "axios": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "express-validator": "^7.2.1",
+    "marked": "^4.3.0",
+    "nodemon": "^3.1.9",
+    "slackify-markdown": "^4.4.0",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  }
+}
