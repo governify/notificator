@@ -62,14 +62,14 @@ The API is documented using the OpenAPI 3.0 specification. The documentation can
     cp .env.example .env
     ```
 
-    Update the `.env` file with the required API keys and configuration.
+    Update the `.env` file with the required API `keys and configuration.
 5. Start the server using nodemon with:
 
     ```bash
     npm run dev
     ```
 
-6. Access the API docs at `http://localhost:5900/api-docs`.
+6. Access the API docs at `http://localhost:6900/api-docs`.
 
 ## Response Format
 
