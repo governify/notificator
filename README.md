@@ -69,7 +69,7 @@ The API is documented using the OpenAPI 3.0 specification. The documentation can
     npm run dev
     ```
 
-6. Access the API docs at `http://localhost:5900/api-docs`.
+6. Access the API docs at `http://localhost:6100/api-docs`.
 
 ## Response Format
 
