@@ -62,7 +62,7 @@ The API is documented using the OpenAPI 3.0 specification. The documentation can
     cp .env.example .env
     ```
 
-    Update the `.env` file with the required API keys and configuration.
+    Update the `.env` file with the required API `keys and configuration.
 5. Start the server using nodemon with:
 
     ```bash
