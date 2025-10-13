@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export default {
-    port: process.env.PORT || 6100,
+    port: process.env.PORT || 6200,
     fromEmail: process.env.FROM_EMAIL,
     sendgridApiKey: process.env.SENDGRID_API_KEY,
 }
