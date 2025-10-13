@@ -3,8 +3,6 @@ name: Create Release and Push to DockerHub
 on:
   push:
     branches: [ main, develop ]
-  pull_request:
-    branches: [ main, develop ]
 
 jobs:
   test:
