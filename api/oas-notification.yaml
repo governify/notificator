@@ -4,7 +4,7 @@ info:
   description: API for sending notifications via email, Slack, and other services.
   version: 1.0.0
 servers:
-  - url: http://localhost:6200/api/v1
+  - url: http://localhost:6100/api/v1
     description: Local server
   - url: https://notificator.bluejay.governify.io/api/v1
     description: Production server
