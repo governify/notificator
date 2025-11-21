@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/governify/notificator#readme",
   "dependencies": {
-    "@sendgrid/mail": "^8.1.4",
     "axios": "^1.4.0",
     "dotenv": "^16.4.7",
     "express": "^4.18.2",
     "express-validator": "^7.2.1",
     "marked": "^4.3.0",
     "nodemon": "^3.1.9",
+    "resend": "^6.5.2",
     "slackify-markdown": "^4.4.0",
     "swagger-ui-express": "^5.0.1",
     "yamljs": "^0.3.0"

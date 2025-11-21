@@ -7,7 +7,7 @@ import appConfig from "./appConfig.js";
 dotenv.config();
 
 const app = express();
-app.use(express.json());
+app.use(express.json({ limit: '50mb' }));
 
 // Load OpenAPI Specification
 const swaggerDocument = yaml.load("./api/oas-notification.yaml");

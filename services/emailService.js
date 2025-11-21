@@ -1,18 +1,23 @@
-import sgMail from "@sendgrid/mail";
+import { Resend } from 'resend';
 import appConfig from "../appConfig.js";
-const SENDGRID_API_KEY = appConfig.sendgridApiKey;
+const RESEND_API_KEY = appConfig.resendApiKey;
 const FROM = appConfig.fromEmail;
 
-sgMail.setApiKey(SENDGRID_API_KEY);
+const resend = new Resend(RESEND_API_KEY);
 
 export const sendEmail = async (to, subject, text, html) => {
-  const msg = {
-    to,
-    from: FROM,
-    subject,
-    text,
-    html,
-  };
-
-  await sgMail.send(msg);
+    const message = {
+        to: to,
+        from: FROM,
+        subject,
+        text,
+        html,
+    }
+    const { data, error } = await resend.emails.send(message);
+    if (error) {
+        return console.error({ error });
+    }
+    console.log({ data });
 };
+
+
