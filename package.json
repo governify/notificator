@@ -1,6 +1,6 @@
 {
   "name": "notificator",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Sends notifications to email, slack...",
   "main": "index.js",
   "type": "module",
