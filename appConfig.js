@@ -4,5 +4,5 @@ dotenv.config();
 export default {
     port: process.env.PORT || 6100,
     fromEmail: process.env.FROM_EMAIL,
-    sendgridApiKey: process.env.SENDGRID_API_KEY,
+    resendApiKey: process.env.RESEND_API_KEY,
 }
